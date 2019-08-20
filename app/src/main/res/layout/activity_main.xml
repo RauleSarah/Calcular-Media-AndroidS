@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtNota"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="184dp"
+        android:layout_height="43dp"
+        android:onClick="@string/calcular"
+        android:text="@string/calcular"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="273dp"
+        tools:text="Calcular" />
+
+    <TextView
+        android:id="@+id/lblNota1"
+        android:layout_width="86dp"
+        android:layout_height="42dp"
+        android:text="@string/nota1"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="36dp"
+        tools:text="Nota1" />
+
+    <TextView
+        android:id="@+id/lblNota2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nota2"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="112dp"
+        tools:text="Nota2" />
+
+    <EditText
+        android:id="@+id/txtNota2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="108dp" />
+
+    <TextView
+        android:id="@+id/lblNota3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nota3"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="183dp"
+        tools:text="Nota3" />
+
+    <EditText
+        android:id="@+id/txtNota3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <TextView
+        android:id="@+id/lblMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/media"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="345dp"
+        tools:text="Media" />
+
+    <EditText
+        android:id="@+id/txtMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <TextView
+        android:id="@+id/lblSituação"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/situação"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="417dp"
+        tools:text="Situação" />
+
+    <EditText
+        android:id="@+id/txtSituação"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+</android.support.constraint.ConstraintLayout>
